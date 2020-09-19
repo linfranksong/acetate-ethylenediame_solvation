@@ -1,0 +1,5 @@
+/var/lib/slurmd/job3666700/slurm_script: line 24: 27771 Killed                  $exe -O -i min.in -o min.out -c step1_final_1.inpcrd -p step1_final_1.prmtop -r min.rst -x min.netcdf -inf min.mdinfo -ref step1_final_1.inpcrd
+STOP PMEMD Terminated Abnormally!
+
+  Unit    9 Error on OPEN: min.rst                                                                                                                                                                                                                                                         
+slurmstepd: error: Detected 1 oom-kill event(s) in step 3666700.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

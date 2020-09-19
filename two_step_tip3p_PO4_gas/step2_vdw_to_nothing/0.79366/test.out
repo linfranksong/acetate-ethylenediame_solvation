@@ -1,0 +1,4 @@
+/mnt/gs18/scratch/users/songlin3/run/1264_optimization/PO4/step2/0.79366
+RUN AMBER JOB
+cudaMemcpy GpuBuffer::Download failed an illegal memory access was encountered
+FINISH JOB, SAVE IT TO SCRATCH

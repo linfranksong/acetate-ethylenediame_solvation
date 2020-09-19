@@ -1,0 +1,13 @@
+parm step1_final.prmtop
+loadRestrt step1_final.inpcrd
+change AMBER_ATOM_TYPE :2@O1 ocg
+change AMBER_ATOM_TYPE :2@O2 ocg
+change AMBER_ATOM_TYPE :2@O3 ocg
+change AMBER_ATOM_TYPE :2@O  ocg
+change AMBER_ATOM_TYPE :2@P  pcg
+addLJType @%ocg
+addLJType @%pcg
+change CHARGE :2@%pcg 0.9944
+change CHARGE :2@%ocg -0.848400
+setOverwrite True
+outparm step1_final_1.prmtop step1_final_1.inpcrd

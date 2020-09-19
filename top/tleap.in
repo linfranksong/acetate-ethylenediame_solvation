@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff2
+source leaprc.water.tip3p
+PO4 = loadmol2 po4.mol2
+loadamberparams po4.frcmod
+a = loadpdb pdb
+solvateoct a TIP3PBOX 24.0
+saveamberparm a step2.prmtop step2.inpcrd
+quit
+

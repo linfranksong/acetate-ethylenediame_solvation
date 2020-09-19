@@ -1,0 +1,4 @@
+STOP PMEMD Terminated Abnormally!
+
+  Unit    9 Error on OPEN: min.rst                                                                                                                                                                                                                                                         
+/var/lib/slurmd/job3666821/slurm_script: line 29: break: only meaningful in a `for', `while', or `until' loop

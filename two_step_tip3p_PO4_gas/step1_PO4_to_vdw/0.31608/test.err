@@ -1,0 +1,3 @@
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+/var/lib/slurmd/job3480881/slurm_script: line 25: 23188 Killed                  $exe -O -i heat.in -o heat.out -c min.rst -p step1_final.prmtop -r heat.rst -x heat.netcdf -inf heat.mdinfo -ref min.rst
+slurmstepd: error: Detected 1 oom-kill event(s) in step 3480881.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

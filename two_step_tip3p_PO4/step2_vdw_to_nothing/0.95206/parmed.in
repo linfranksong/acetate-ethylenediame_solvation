@@ -1,0 +1,8 @@
+parm step1_final.prmtop
+loadRestrt step1_final.inpcrd
+setOverwrite True
+change CHARGE :2@%o 0
+changeLJSingleType :2@%o 0 0
+change CHARGE :2@%p5 0
+changeLJSingleType :2@%p5 0 0
+outparm step2_final.prmtop step2_final.inpcrd
